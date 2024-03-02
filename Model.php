@@ -1,16 +1,12 @@
 <?php
-
-
- class Model{
+class Model{
     public $string;
     
-    public function _construct(){
-        $this->string="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public function __construct(){
+        $this->string = "Olá Fabricio";
     }
 
     public function get_string(){
         return $this->string;
     }
-
- }
-
+}
